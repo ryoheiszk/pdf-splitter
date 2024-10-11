@@ -2,7 +2,13 @@
 
 ```bash
 python -m venv .venv
+
+# Windowsの場合
 source .venv/Scripts/activate
+
+# Linuxの場合
+source .venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
